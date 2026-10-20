@@ -1,0 +1,32 @@
+{
+    "name": "medienbaecker/kirby-file-usage",
+    "description": "Shows every page that uses a file, including files only referenced by templates",
+    "type": "kirby-plugin",
+    "authors": [
+        {
+            "name": "Thomas Günther",
+            "email": "mail@medienbaecker.com"
+        }
+    ],
+    "require": {
+        "php": "^8.2",
+        "getkirby/cms": "^5.0",
+        "getkirby/composer-installer": "^1.2"
+    },
+    "config": {
+        "allow-plugins": {
+            "getkirby/composer-installer": true
+        }
+    },
+    "archive": {
+        "exclude": [
+            ".DS_Store",
+            ".editorconfig",
+            ".gitignore",
+            "node_modules/",
+            "package.json",
+            "package-lock.json",
+            "src/"
+        ]
+    }
+}
