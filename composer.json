@@ -1,7 +1,8 @@
 {
     "name": "medienbaecker/kirby-file-usage",
-    "description": "Shows every page that uses a file, including files only referenced by templates",
+    "description": "See which pages use a file",
     "type": "kirby-plugin",
+    "license": "MIT",
     "authors": [
         {
             "name": "Thomas Günther",
